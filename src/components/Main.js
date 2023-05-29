@@ -8,12 +8,12 @@ function Main() {
   return (
     <div className='main'>
         <Grid container spacing={2}>
-            <Grid item xs={4}>
+            <Grid item xs={3}>
              <Card className='left-menu' variant="outlined">
               <LeftNav/>
             </Card>
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={9}>
               <RightMain/>
             </Grid>
         </Grid>

@@ -13,6 +13,19 @@ function LeftNav() {
                 Home
             </ListItemButton>
           </ListItem>
+          <ListItem className='left-menu-items-seperater'>
+             Class
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/classstatecomponent"} >
+                Using State
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/lifecycles"} >
+                Life Cycle's
+            </ListItemButton>
+          </ListItem>
         </List>
     </div>
   )
