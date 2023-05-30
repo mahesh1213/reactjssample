@@ -6,6 +6,10 @@ import Missing from './components/Missing';
 import Home from './components/Home';
 import Classwithstate from './components/classcomponents/Classwithstate';
 import LifeCycleclass from './components/classcomponents/LifeCycleclass';
+import ReactContextApi from './components/classcomponentcontextapi/ReactContextApi';
+import Errorboundaries from './components/errorboundingclass/Errorboundaries';
+import Hocclass from './components/classhoc/Hocclass';
+import RefUsingClass from './components/classref/RefUsingClass';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
            <Route path="home" element={<Home />} />
            <Route path="classstatecomponent" element={<Classwithstate />} />
            <Route path="lifecycles" element={<LifeCycleclass />} />
+           <Route path="contextapi" element={<ReactContextApi />} />
+           <Route path="errorboundaries" element={<Errorboundaries />} />
+           <Route path="hoc" element={<Hocclass />} />
+           <Route path="resclass" element={<RefUsingClass />} />
            <Route path="*" element={<Missing/>} />
          </Route>
         </Routes>

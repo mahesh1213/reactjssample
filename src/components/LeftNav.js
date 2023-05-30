@@ -26,6 +26,26 @@ function LeftNav() {
                 Life Cycle's
             </ListItemButton>
           </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/contextapi"} >
+                Context Api
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/errorboundaries"} >
+            Error Boundaries
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/hoc"} >
+            Higher order
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/resclass"} >
+            Refs 
+            </ListItemButton>
+          </ListItem>
         </List>
     </div>
   )

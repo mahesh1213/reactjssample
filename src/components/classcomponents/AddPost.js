@@ -29,11 +29,11 @@ export default class AddPost extends Component {
           <form onSubmit={this.addPost.bind(this)}>
              <div>
                 <label htmlFor='title'>Title</label>
-                 <input type={'text'} name='title' value={this.state.title} onChange={this.updateValue.bind(this)}/>
+                 <input id={'title'} type={'text'} name='title' value={this.state.title} onChange={this.updateValue.bind(this)}/>
              </div>
              <div>
                 <label htmlFor='description'>Description</label>
-                 <input type={'text'} name='description' value={this.state.description} onChange={this.updateValue.bind(this)}/>
+                 <input id={'description'} type={'text'} name='description' value={this.state.description} onChange={this.updateValue.bind(this)}/>
              </div>
              <div>
                 <button type='submit'>Add Post</button>

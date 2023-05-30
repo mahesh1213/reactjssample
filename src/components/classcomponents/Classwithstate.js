@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import AddPost from './AddPost';
 import DailogComponent from './DailogComponent';
 import SinglePost from './SinglePost'
@@ -30,9 +30,9 @@ export default class Classwithstate extends Component {
       <div>
         <AddPost addPostData={this.addPostData}/>
         { this.state.posts.map((post,index)=>{
-             return (<div key={index}> 
-                {post.active ? <SinglePost keys={index} post={post}/>: null}
-             </div>)
+             return (<Fragment key={index}> 
+                {post.active ? <SinglePost post={post}/>: null}
+             </Fragment>)
           })
         }
         <div>
