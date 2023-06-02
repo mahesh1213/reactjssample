@@ -46,6 +46,24 @@ function LeftNav() {
             Refs 
             </ListItemButton>
           </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/forwardref"} >
+            Forword Refs 
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items-seperater'>
+             Hooks
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/stateandeffect"} >
+            UseState  UseEffect
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/apitcalling"} >
+             Api calling
+            </ListItemButton>
+          </ListItem>
         </List>
     </div>
   )

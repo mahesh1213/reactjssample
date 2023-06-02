@@ -22,3 +22,7 @@
 .left-menu-items-seperater{
   color:red
 }
+
+.hover{
+  cursor: pointer;
+}

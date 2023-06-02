@@ -10,6 +10,9 @@ import ReactContextApi from './components/classcomponentcontextapi/ReactContextA
 import Errorboundaries from './components/errorboundingclass/Errorboundaries';
 import Hocclass from './components/classhoc/Hocclass';
 import RefUsingClass from './components/classref/RefUsingClass';
+import PassingFarwordRefClass from './components/classforwardrefs/PassingFarwordRefClass';
+import StateandEffecthook from './components/Hooks/StateandEffecthook';
+import Apitcalling from './components/Hooks/Apitcalling';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
            <Route path="errorboundaries" element={<Errorboundaries />} />
            <Route path="hoc" element={<Hocclass />} />
            <Route path="resclass" element={<RefUsingClass />} />
+           <Route path="forwardref" element={<PassingFarwordRefClass />} />
+           <Route path="stateandeffect" element={<StateandEffecthook />} />
+           <Route path="apitcalling" element={<Apitcalling />} />
            <Route path="*" element={<Missing/>} />
          </Route>
         </Routes>
