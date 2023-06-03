@@ -64,6 +64,16 @@ function LeftNav() {
              Api calling
             </ListItemButton>
           </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/routingreact"} >
+             Routing in react
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/reactredux"} >
+             React Redux
+            </ListItemButton>
+          </ListItem>
         </List>
     </div>
   )

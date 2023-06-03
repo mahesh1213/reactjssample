@@ -13,6 +13,8 @@ import RefUsingClass from './components/classref/RefUsingClass';
 import PassingFarwordRefClass from './components/classforwardrefs/PassingFarwordRefClass';
 import StateandEffecthook from './components/Hooks/StateandEffecthook';
 import Apitcalling from './components/Hooks/Apitcalling';
+import RoutingInReact from './components/routing/RoutingInReact';
+import ReduxMain from './components/redux/ReduxMain';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
            <Route path="forwardref" element={<PassingFarwordRefClass />} />
            <Route path="stateandeffect" element={<StateandEffecthook />} />
            <Route path="apitcalling" element={<Apitcalling />} />
+           <Route path="routingreact" element={<RoutingInReact />} />
+           <Route path="reactredux" element={<ReduxMain />} />
            <Route path="*" element={<Missing/>} />
          </Route>
         </Routes>

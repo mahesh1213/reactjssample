@@ -4,6 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import axios from 'axios';
+
+//axios.defaults.baseURL ='url';
+axios.defaults.headers.common['Authoration'] = 'token';
+
+
+
+axios.interceptors.request.use((request)=>{
+  console.log(request);
+  request.headers.channelName = "test123"
+  return request;
+});
+
+axios.interceptors.response.use((response)=>{
+  console.log('responce',response);
+  return response;
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
