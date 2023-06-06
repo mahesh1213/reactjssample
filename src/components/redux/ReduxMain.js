@@ -17,14 +17,14 @@ export default function ReduxMain() {
           <li>actions</li>
        </ul>
        <ul>
-          <li>store - current redux application state live in an object. it has method store.getstore().
+          <li>store - current redux application state live in an object. it has method "store.getstore()".
             store is created by passing reducer.</li>
           <li>action - plain javascript object. with property "type" it should be a string. and it hase payload</li>
           <li>action creators</li>
           <li>reducers - it will update store and able to send new state to ui.is a pure function
             it takes arguments "state" and action
           </li>
-          <li>dispatch - store has methode called dispatch. store.dispatch(type, payload)</li>
+          <li>dispatch - store has methode called dispatch. "store.dispatch(type, payload)"</li>
        </ul>
        <hr></hr>
        <div>
@@ -88,6 +88,20 @@ export default function ReduxMain() {
        <div>
          <h4>perform asynchronous api calls</h4>
            <p>combineReducers - use to combain multiple reducers.</p>
+           <p>Reducers are pure function's here we not able to call. asynchronous call. for this we need to use 
+            middleware.
+           </p>
+       </div>
+       <div>
+         <h4>Redux thunk</h4>
+           <p>it is a middleware which is used for performing the asynchronous logic. npm install redux-thunk.</p>
+           <p>in apply middleware we need to add as argument 'thunk'.</p>
+           <p>it "return" a function which has "dispatch" and "getState" as argument.</p>
+       </div>
+       <div>
+         <h4>Create Selectors</h4>
+         <p>we need to install "npm install reselect"</p>
+         <p>to memorize the useSelector</p>
        </div>
     </div>
   )
