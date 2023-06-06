@@ -69,9 +69,17 @@ function LeftNav() {
              Routing in react
             </ListItemButton>
           </ListItem>
+          <ListItem className='left-menu-items-seperater'>
+             Redux
+          </ListItem>
           <ListItem className='left-menu-items'>
             <ListItemButton component={NavLink}  to={"/reactredux"} >
              React Redux
+            </ListItemButton>
+          </ListItem>
+          <ListItem className='left-menu-items'>
+            <ListItemButton component={NavLink}  to={"/reduxsample"} >
+             React Redux sample
             </ListItemButton>
           </ListItem>
         </List>

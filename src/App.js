@@ -15,6 +15,7 @@ import StateandEffecthook from './components/Hooks/StateandEffecthook';
 import Apitcalling from './components/Hooks/Apitcalling';
 import RoutingInReact from './components/routing/RoutingInReact';
 import ReduxMain from './components/redux/ReduxMain';
+import ReduxSample from './components/redux/ReduxSample';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
            <Route path="apitcalling" element={<Apitcalling />} />
            <Route path="routingreact" element={<RoutingInReact />} />
            <Route path="reactredux" element={<ReduxMain />} />
+           <Route path="reduxsample" element={<ReduxSample />} />
            <Route path="*" element={<Missing/>} />
          </Route>
         </Routes>

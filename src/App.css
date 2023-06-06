@@ -27,3 +27,8 @@
 .hover{
   cursor: pointer;
 }
+
+.edit_delete svg{
+  height: 18px;
+  width: 18px;
+}
