@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWRkN2ViZTItMDI4Ni00ZWYyLWE2MmMtY2YwYjVlODYxMGQw%40thread.v2/0?context=%7b%22Tid%22%3a%220159e9d0-09a0-4edf-96ba-a3deea363c28%22%2c%22Oid%22%3a%2249188da8-4718-48d6-9735-ed21064d153f%22%7d
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
